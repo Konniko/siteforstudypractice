@@ -677,7 +677,7 @@ margin-right: 55px;
 .bg-pic{
 	min-height: 100vh;
 	position: relative;
-	background: url(../../images/svggg/rrrectangle.svg) no-repeat;
+	background: url(images/svggg/rrrectangle.svg) no-repeat;
 	background-size: cover;
 }
 .wrapper_join{
