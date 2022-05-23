@@ -9,10 +9,7 @@
 		}
 	};
 }());
-
-
 // handler
-
 (function () {
 	const iconeyeItem = document.querySelector('.iconeye');
 	const menu = document.querySelector('.header_nav');
@@ -23,8 +20,14 @@
 	menuCloseItem.addEventListener('click', () => {
 		menu.classList.remove('header_nav_active');
 	});
+		if (window.innerWidth < 920) {
+		for (let i = 0; i < menuLinks.length; i += 1) {
+			menuLinks[i].addEventListener('click', () => {
+				menu.classList.remove('header_nav_active');
+			});
+		}
+	}
 }());
-
 // Scroll to anchors
 (function () {
 
@@ -50,9 +53,7 @@
 					if (timeElapsed < duration) requestAnimationFrame(animation);
 			};
 			requestAnimationFrame(animation);
-
 	};
-
 	const scrollTo = function () {
 			const links = document.querySelectorAll('.js-scroll');
 			links.forEach(each => {
