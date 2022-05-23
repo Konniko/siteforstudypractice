@@ -508,7 +508,7 @@ img {
 /* Intro styles start */
 .intro {
   min-height: 100vh;
-  background: url(../images/intro.jpg) no-repeat center;
+  background: url(../images/intro-min.jpg) no-repeat center;
   background-size: cover;
   padding-top: 230px;
 }
@@ -778,7 +778,7 @@ img {
 .bg-pic {
   min-height: 100vh;
   position: relative;
-  background: url(/images/Rectangle.jpg) no-repeat;
+  background: url(../images/Rectangle-min.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -1058,7 +1058,7 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   min-height: 100vh;
-  background: url(../images/urgani-624609.jpg) no-repeat center;
+  background: url(../images/urgani-624609-min.jpg) no-repeat center;
   background-size: cover;
   position: relative;
 }
