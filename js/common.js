@@ -14,6 +14,7 @@
 	const iconeyeItem = document.querySelector('.iconeye');
 	const menu = document.querySelector('.header_nav');
 	const menuCloseItem = document.querySelector('.header_nav-close');
+	const menuLinks = document.querySelectorAll('.header_link');
 	iconeyeItem.addEventListener('click', () => {
 		menu.classList.add('header_nav_active');
 	});
