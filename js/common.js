@@ -21,11 +21,11 @@
 	menuCloseItem.addEventListener('click', () => {
 		menu.classList.remove('header_nav_active');
 	});
-	if (window.innerWidth <= 920) {
+	if (window.innerWidth < 920) {
 	for (let i = 0; i < menuLinks.length; i += 1) {
 		menuLinks[i].addEventListener('click', () => {
 			menu.classList.remove('header_nav_active');
-			});
+		});
 		}
 	}
 }());
